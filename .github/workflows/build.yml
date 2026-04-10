@@ -19,11 +19,13 @@ jobs:
           kernel-branch: lineage-23.0
           config: defconfig
           arch: arm64
-          aosp-gcc: true
-          aosp-clang: true
+          aosp-gcc: false
+          aosp-clang: false
+          other-clang-url: true
+          other-clang-branch: master
           ksu: true
           ksu-version: main
           android-version: 12
-          aosp-clang-version: r547379
+          aosp-clang-version: r596125
           disable-lto: true
           anykernel3: true
